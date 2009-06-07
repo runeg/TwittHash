@@ -1,0 +1,14 @@
+Hvordan bruke dette innstikket
+
+Det er ikke laget en admin meny, da dette egentlig ikke trenger en admin meny...
+Som vanlig laster du opp innstikket til /wp-content/plugins og går til admin siden din og
+aktiverer innstikket.
+
+Du kan bruke innstikket på to måter;
+
+1) Du kan aktivere filteret nederst ved å fjerne de to // før add_filter kommandoen.
+
+2) Du kan legge til <?php if (function_exists('showhash')) { showhash($data);}?> der du
+ønsker at det skal vises.
+
+Lykke til! Bruk http://norsk.bloggs.be til spørsmål
