@@ -38,6 +38,8 @@ Du kan bruke innstikket på to måter;
 2) Du kan legge til <?php if (function_exists('showhash')) { showhash($data);}?> der du
 ønsker at det skal vises.
 
+3) Når du skriver en post, må du legge til twitt_hash som tilpasset felt for hver hashtag du vil ha med.
+
 Lykke til! Bruk http://norsk.bloggs.be til spørsmål
 */
 
